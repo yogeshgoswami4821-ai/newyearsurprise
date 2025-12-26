@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy New Year 🎆</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="fireworks"></canvas>
+
+<audio id="bgMusic" loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<div class="container">
+  <h1>🎉 Happy New Year 2026 🎉</h1>
+  <p>Enter your name & send beautiful wishes ✨</p>
+
+  <input type="text" id="name" placeholder="Enter your name">
+  <button onclick="startWish()">Start Celebration 🎆</button>
+
+  <div id="countdown"></div>
+
+  <div id="wish" class="wish"></div>
+
+  <button id="shareBtn" onclick="shareWish()">Share ❤️</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
